@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/highlightjs/highlightjs-robots-txt.git"
+    "url": "https://github.com/highlightjs/highlightjs-riscv.git"
   },
   "keywords": [
-    "robots.txt",
+    "riscv",
     "highlight.js",
     "highlightjs",
     "syntax"
   ],
-  "author": "Thomas LÉVEIL <thomasleveil@gmail.com>",
+  "author": "Rodolfo Azevedo <rodolfo.azevedo@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/highlightjs/highlightjs-robots-txt/issues"
+    "url": "https://github.com/highlightjs/highlightjs-riscv/issues"
   },
-  "homepage": "https://github.com/highlightjs/highlightjs-robots-txt"
+  "homepage": "https://github.com/highlightjs/highlightjs-riscv"
 }

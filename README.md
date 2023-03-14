@@ -1,7 +1,7 @@
 # robots.txt - a language grammar for highlight.js
 
-![version](https://badgen.net/npm/v/highlightjs-robots-txt) ![license](https://badgen.net/badge/license/MIT/blue)
-![install size](https://badgen.net/packagephobia/install/highlightjs-robots-txt) ![minified size](https://badgen.net/bundlephobia/min/highlightjs-robots-txt)
+![version](https://badgen.net/npm/v/highlightjs-riscv) ![license](https://badgen.net/badge/license/MIT/blue)
+![install size](https://badgen.net/packagephobia/install/highlightjs-riscv) ![minified size](https://badgen.net/bundlephobia/min/highlightjs-riscv)
 
 ## Usage
 
@@ -13,7 +13,7 @@ Simply load the module after loading Highlight.js.  You'll use the minified vers
 
 ```html
 <script type="text/javascript" src="/path/to/highlight.min.js"></script>
-<script type="text/javascript" src="/path/to/robots-txt.min.js"></script>
+<script type="text/javascript" src="/path/to/riscv.min.js"></script>
 <script type="text/javascript">
   hljs.highlightAll();
 </script>
@@ -23,7 +23,7 @@ Simply load the module after loading Highlight.js.  You'll use the minified vers
 
 ```html
 <script type="text/javascript"
-  src="https://unpkg.com/highlightjs-robots-txt@0.9.1/dist/robots-txt.min.js"></script>
+  src="https://unpkg.com/highlightjs-riscv@0.1/dist/riscv.min.js"></script>
 ```
 
 - More info: <https://unpkg.com>
@@ -34,9 +34,9 @@ If you're using Node / Webpack / Rollup / Browserify, etc, simply require the la
 
 ```javascript
 var hljs = require('highlight.js');
-var hljsRobotsTxt = require('highlightjs-robots-txt');
+var hljsRobotsTxt = require('highlightjs-riscv');
 
-hljs.registerLanguage("robots-txt", hljsRobotsTxt);
+hljs.registerLanguage("riscv", hljsRiscV);
 hljs.highlightAll();
 ```
 
@@ -46,19 +46,14 @@ hljs.highlightAll();
 Highlight.js is released under the MIT License. See [LICENSE][1] file
 for details.
 
-### Author
+### RISC-V Author
 
-Thomas LÉVEIL <thomasleveil@gmail.com>
-
-### Maintainer
-
-Josh Goebel <hello@joshgoebel.com>
-
+Rodolfo Azevedo <rodolfo.azevedo@gmail.com>
 
 ## Links
 
 - The official site for the Highlight.js library is <https://highlightjs.org/>.
 - The Highlight.js GitHub project: <https://github.com/highlightjs/highlight.js>
-- Learn more about robots.txt: <https://support.google.com/webmasters/answer/6062608?hl=en>
+- Learn more about RISC-V: <https://riscv.org/>
 
-[1]: https://github.com/highlightjs/highlightjs-robots-txt/blob/master/LICENSE
+[1]: https://github.com/highlightjs/highlightjs-riscv/blob/master/LICENSE
